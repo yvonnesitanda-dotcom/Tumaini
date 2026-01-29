@@ -8,14 +8,77 @@
                 transition: 3s ;
             }
         </style>
+        <script src="dist/js/bootstrap.js"></script>
     </head>
     <body>
+        <!-- Section one starts here -->
+         <section class="row">
+            <div class="col-lg-12">
+                    <!-- Below tag elemnt will hold all the content of the navbar -->
+                     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+                        <a href="index.html" class="navbar-brand"><b>Tumaini collection</b></a>
+
+                        <!-- below is the toggler/hamburger button to either collapse/expand content depending on the different screen sizes -->
+
+                        <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div id="navbarcontents" class="navbar-collapse collapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-link active">Home</a>
+                                <a href="Beddings.html" class="nav-link">Beddings</a>
+                                <a href="#" class="nav-link">Fashion</a>
+                            </div>
+                        </div>
+
+                     </nav>
+            </div>
+         </section>
+         <!-- Section one ends here -->
+          <!-- Section two starts here -->
+           <section class="row">
+            <div col-lg-12>
+                <!--Below is a division that will hold all content  -->
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- Below is the div that will hold all the image -->
+                     <div class="carousel slide-inner active">
+                        <!-- Below is the div with all image -->
+                     </div>
+                            <!-- Below is the div with the first image -->
+                             <div class="carousel-item active">
+                                <img src="images\imagez/slide1.jpg" alt="" class="d-block w-100">
+                             </div>
+                                    <!-- Below is the second image -->
+                                     <div class="carousel-item">
+                                        <img src="images\imagez/slide2.jpg" alt="" class="d-block w-100">>
+                                     </div>
+                                            <!-- Below is the div with the third image -->
+                                             <div class="carousel-item ">
+                                                <img src="images\imagez/slide3.jpg" alt="" class="d-block w-100">>
+                                                <!-- Below is the div that holds fourth image -->
+                                             </div class="carousel-item">
+                                                    <img src="images\imagez/slide4.jpg" alt="" class="d-block w-100">>
+                                                 </div>
+                                             
+                                                </div>
+
+                     <!-- Below are the controls -->
+                      <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev" ><span class="carousel-control-prev-icon bg-danger"></span></a>
+
+                      <a href="#mycarousel" data-bs-slide= "carousel-control-next"class="carousel-control-next"><span class="carousel-control-next-icon bg-danger"></span></a>
+                </div>
+
+            </div>
+           </section>
+
+           <!-- Section two ends here -->
         <!-- Section three starts here -->
          <section class="row">
-            <div class="col-md-3">
+            <div class="col-lg-3 text-center">
                 <img src="images\imagez/advert.jpg" alt="advert image" width="90%" height="350px">
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <img src="images\imagez\alionskettle.jpg" alt="Kettle" height="200px" width="200px">
                     <h5>Alions Kettle</h5>
 
@@ -25,7 +88,7 @@
 
                     <span class="badge bg-danger">10% Off</span>
                 </div>
-                <div class="col-md-3 text-center" >
+                <div class="col-lg-3 text-center" >
                     <img src="images\imagez/Mika2slicetoaster.png" alt="" height="200px" width="200px">
 
                     <h5>Mika Slice Toaster</h5>
@@ -36,7 +99,7 @@
                     <span class="badge bg-danger"> 5% OFF</span>
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <img src="images\imagez/cooker.jpg" alt="cooker" height="200px" width="200px">
 
                     <h5>Pro Cooker</h5>
@@ -50,10 +113,10 @@
          <!-- Section three ends here -->
           <!-- Section Four Stars here -->
            <section class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <img src="images\imagez/advert1.jpg" alt="advert 1" height="350px" width="98%">
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <img src="images\imagez/advert2.jpg" alt="advert 2" height="350px" width="98%">
             </div>
 
@@ -63,7 +126,7 @@
             <!-- Section five starts here -->
              <h3>Decors</h3>
              <section class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="images\imagez/decor1.jpg" alt="decor1" height="200px" width="200px">
                      <h5>Decor One</h5>
 
@@ -74,7 +137,7 @@
                      
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="images\imagez/decor2.jpg" alt="decor 2" height="200px" width="200px">
 
                     <h5>Decor Two</h5>
@@ -83,7 +146,7 @@
                      <span class="badge bg-danger">20% Off</span>
                 </div>
 
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 text-center">
                     <img src="images\imagez/decor3.jpg" alt="decor 3" height="200px" width="200px">
 
                     <h5>Decor Three</h5>
@@ -99,7 +162,7 @@
             
                     <h3>Six</h3>
                     <h3>Televisions</h3>
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Samsung 55"Smart TV</h5>
                         <img src="images\imagez/screen1.jpg" alt="screen1" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, inventore!</p>
@@ -107,7 +170,7 @@
                         <span class="badge bg-danger">10% Off</span>
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>LG 50" UHD 4K TV</h5>
                         <img src="images\imagez/screen2.jpg" alt="screen2" height="200px" width="200px">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, nobis.</p>
@@ -115,7 +178,7 @@
                     <span class="badge bg-danger">15% Off</span>
 
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <h5>Sony Bravia 43"SMart Tv</h5>
                     <img src="images\imagez/screen3.jpg" alt="screen3" height="200px" width="200px">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, doloribus.</p>
@@ -123,7 +186,7 @@
                     <span class="badge bg-danger">20% off</span>         
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-lg-3 text-center">
                     <h5>TCL 40"Android TV</h5>
                     <img src="images\imagez/screen4.jpg" alt="screen4" height="200px" width="200px">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, itaque?</p>
@@ -137,7 +200,7 @@
                  <section class="row">
                     <h3>Extra</h3>
                     <h3>Smartphones</h3>
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <h5>Google Pixel 6,5G</h5>
                         <img src="images\imagez/phone1.jpg" alt="phone1" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vero illum iure.</p>
@@ -145,7 +208,7 @@
                         <span class="badge bg-danger">10% off</span>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <h5>Techno pop 7,6.6 Inch</h5>
                         <img src="images\imagez/phone2.jpg" alt="phone2" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, repellendus.</p>
@@ -153,7 +216,7 @@
                         <span class="badge bg-danger">15% off</span>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-lg-4 text-center">
                         <h5>Itel A18,5.0 Inch</h5>
                         <img src="images\imagez/phone3.jpg" alt="phone3" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, inventore?</p>
@@ -167,7 +230,7 @@
                    <section class="row">
                     <h3>Extra</h3>
                     <h3>Bathroom Accessories</h3>
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Modern Shower set</h5>
                         <img src="images\imagez/bath1.jpg" alt="bath1" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, sunt?</p>
@@ -176,7 +239,7 @@
 
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Luxury Bathtub</h5>
                         <img src="images\imagez/bath2.jpg" alt="bath2" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vero.</p>
@@ -184,7 +247,7 @@
                         <span class="badge bg-danger">15% off</span>
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Bathroom Sink Mixer</h5>
                         <img src="images\imagez/bath3.jpg" alt="bath3" height="200px" width="200px">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, repudiandae.</p>
@@ -192,7 +255,7 @@
                         <span class="badge bg-danger">8% off</span>
                     </div>
 
-                    <div class="col-md-3 text-center">
+                    <div class="col-lg-3 text-center">
                         <h5>Wall Mounted Mirror</h5>
                         <img src="images/imagez/bath4.jpg" alt="bath4" height="200px" width="200px">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, magni.</p>
@@ -203,5 +266,43 @@
                    </section>
                    <hr>
                    <!-- Section eight ends here -->
+                    <!-- Section nine starts here -->
+                     <section class="row bg-warning">
+                        <div class="col-lg-4 p-4 text-white">
+                            <h4 class="text-center">About Us</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus facilis consequatur mollitia saepe voluptas aperiam.</p>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis libero saepe minima quas, quae voluptates natus neque veniam et. Provident eligendi velit ipsam fuga doloremque veritatis itaque aperiam vero a.</p>
+                            
+                        </div>
+
+                        <div class="col-lg-4 p-4">
+                            <h4 class="text-center">Contact us</h4>
+
+                            <form> 
+                                <input type="email" placeholder="Enter your email"> <br> <br>
+                                
+                                <textarea cols="50" rows="5" class="form-control" placeholder="Leave a comment"></textarea> <br>
+
+                                <input type="submit"
+                                 value="Send message" class="btn btn-outline danger">
+                            </form>
+                        </div>
+
+                        <div class="col-lg-4 text-center">
+                            <h4 class="text-white text-center"> Stay connected</h4>
+                            <a href="https://www.facebook.com"><img src="images\imagez/fb.png" alt=""></a>
+                            <a href="https://www.instagram"><img src="images\imagez/in.png" alt=""></a>
+                            <a href="https://www.twitter.com"><img src="images\imagez/x.png" alt=""></a> <br> <br>
+
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quis vel provident velit veniam optio laudantium iste beatae incidunt molestias enim voluptate illo officia dignissimos, consequuntur a excepturi deleniti tempora.</p>
+                        </div>
+
+
+                     </section>
+                     <footer class="text_center text-white bg-dark p-2">
+                        <b>Developed By Standa. &copy;2026 All Rights Reserved</b>
+                     </footer>
+                     <!-- Section nine ends here -->
          </body>
 </html>
